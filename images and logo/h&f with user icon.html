@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarFusion : a journey through our automobile website</title>
+     <!--font awsome cdn link--> 
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+     <!-- google font  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+ <link rel="icon" href="CarFusion.jpg"> 
+ <link rel="stylesheet" href="h&f with user_icon.css">
+ <!-- <link rel="stylesheet" href="signup.css"> -->
+</head>
+
+<body>
+    <!-- header section  -->
+    <header class="header">
+        <!-- <div id="menu-btn" class="fas fa-bars"></div> -->
+        <div class="logop"><img src="CarFusion.jpg" alt="" ></div>
+        <!-- <a href="#" class="logo"><span>WHEELS</span> <span id="logospan">&</span> BYTES</a> -->
+    <!-- <div class="i"><i class="fa-solid fa-car-side"></i></div> -->
+     <!-- navbar start  -->
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#buyacar">Buy A Car</a>
+        <!-- <a href="#sellacar">Sell A Car</a> -->
+        <a href="#carservice">Car Subcription</a>
+        <a href="#contactus">Contact Us</a>
+    </nav>
+    <div class="user-panel" id="user-panel">
+        <div id="user-icon" >
+            <!-- humburger icon -->
+            <img src="E:\delta 1\practical\images and logo\user.png" style="width: 6rem; height: 6rem;" alt="">
+        </div>
+        <div class="usermenu">
+            <!-- menu for user -->
+            <a href=""></a>
+            <a href="myprofile.html">My Profile</a>
+            <a href="#">My Booking</a>
+            <a href="#">whislist</a>
+            <a href="#">Logout</a>  
+        </div>
+    </div>
+    
+    
+    <!-- navbar end  -->
+</header>
+<p></p>
+<footer>
+    <div class="footer-main-container" id="contactus">
+
+        <div class="footer-flex-container">
+            <div class="company-logo">
+                <p id="product">product</p>
+                <p id="product-names">Toyota <br>
+                    Maruti suzuki <br>
+                    Kia <br>
+                    Honda <br>
+                    Hunyadi <br>
+                    Tata <br>
+                    Mahindra 
+                </p>
+            </div>
+
+            <div class="about-company">
+                    <p id="about-company-descption">
+                        About the company
+                    </p>
+
+                    <p id="main-para">At CarFusion, we're driven by a passion for innovation at the intersection
+                         of automotive excellence and cutting-edge technology.
+                          As industry leaders, we specialize in revolutionizing the way people
+                           interact with vehicles through our advanced software solutions, intuitive applications, and smart device 
+                           integration.
+
+                    </p>
+            </div>
+
+            <div class="address-company">
+                <p id="contact-us">Contact Us</p>
+                    <div class="location"> <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>   <p>2,Bhagwan Mahavir University</p></div>
+                    <div class="phonenum"> <i class="fa-solid fa-phone" style="color: #ffffff;"></i> <p>8000450949</p></div>
+                    <div class="email"> <i class="fa-regular fa-envelope" style="color: #ffffff;"></i><p> <a href="#" style="color: #ffffff;">ourteamcarfusion@gmail.com </a></p> </div>
+            </div>
+
+        </div>
+        <div class="social-media-box">
+            <a href="#"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+           <a href="#"> <i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></a>
+
+        </div>
+    </div>
+</footer>
+<script>
+     document.querySelector('#user-icon').onclick = () => {
+    const userMenu = document.querySelector('.usermenu');
+    if (userMenu.classList.contains('active')) {
+        userMenu.classList.remove('active');
+    } else {
+        userMenu.classList.add('active');
+    }
+};
+
+</script>
+</body>

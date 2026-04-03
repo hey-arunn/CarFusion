@@ -1,0 +1,204 @@
+
+/*-------------------------------- css for footer--------------------------------------  */
+.footer-main-container{
+    background-color: black;
+    border: 2px solid black;
+    height: 39rem;
+    margin-top: 3rem;
+}
+
+.footer-flex-container{
+    display: flex;
+    /* justify-content: space-around; */
+    height: 29rem;
+    margin-top: 3rem;
+    width: 95%;
+    margin-left: 3rem;
+    /* border: 2px solid white; */
+}
+
+.company-logo{
+    height: 20rem;
+    width: 25rem;
+    /* border: 2px solid white; */
+    margin-top: 1rem;
+    margin-left: 4rem;
+    
+
+}
+
+.company-logo #product{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: start;
+    text-decoration: underline;
+}
+
+.company-logo #product-names{
+    color: white;
+    font-size: 1.5rem;
+    /* text-align: center; */
+    margin-top: 3rem;
+    /* text-align: center; */
+}
+
+.about-company{
+    height: 20rem;
+    width: 35rem;
+    /* border: 2px solid white; */
+    margin-top: 1rem;
+    margin-left: 20rem;
+}
+
+.about-company #about-company-descption{
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 500;
+    text-decoration: underline;
+
+}
+
+.about-company #main-para{
+    color: white;
+    font-size: 1.3rem;
+    /* text-align: center; */
+    margin-top: 3rem;
+
+}
+
+.address-company{
+    height: 20rem;
+    width: 45rem;
+    /* border: 2px solid white; */
+    margin-top: 6rem;
+    margin-left: 15rem;
+    display: flex;
+    flex-direction: column;
+}
+.address-company #contact-us{
+    font-size: 2rem;
+    margin-top: -4rem;
+    text-decoration: underline;
+}
+.address-company p{
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+.address-company i{
+    font-size: 2rem;
+}
+
+.address-company .location{
+    width: 60%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.address-company .phonenum{
+    width: 34.5%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.address-company .email{
+    width: 62%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media-box{
+    height: 4rem;
+    width: 30rem;
+    /* border: 2px solid rgb(255, 255, 255); */
+    margin-top: 1rem;
+    margin-left: 55rem;
+    margin-bottom: -3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media-box a i{
+    font-size: 3rem;
+}
+/* css for footer end  */
+/* ---------------------------------------------------------------- */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body {
+    /* background: rgb(99, 39, 120) */
+    background: blue;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8;
+
+}
+
+.profile-button {
+    /* background: rgb(99, 39, 120); */
+    background: blue;
+    box-shadow: none;
+    border: none;
+    margin-top: 20px; /* Adjust margin */
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+h4{
+    font-size: 2rem;
+}
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 2rem
+}
+
+input[type="text"]{
+    font-size: 2rem;
+}
+
+input[type="email"]{
+    font-size: 2rem;
+}
+
+input[type="number"]{
+    font-size: 2rem;
+}

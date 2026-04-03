@@ -1,0 +1,287 @@
+/* --------------------------------------header------------------------------------------ */
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    /* background-color: white; */
+    text-decoration: none;  
+    /* display: flex; */
+    /* background-color: #232323; */
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    /* scroll-padding-top: 7rem; */
+    scroll-behavior: smooth;
+}
+/* header section */
+.header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    align-items: center;
+    padding: 3rem 9% ;
+    border-bottom: .1rem solid rgb(0, 0, 0);
+    background-color: white;
+    padding-left: -50rem;
+    /* box-shadow: 2px 6px 8px rgb(126, 15, 15); */ 
+}
+/* when we scroll header will active  */
+.header.active{
+    box-shadow: 2px 5px 10px grey;
+    padding: 2rem 9%;
+
+}
+/* company logo */
+
+.logop{
+    margin-top: 1rem;
+    margin-left: -3rem;
+    width: 10rem;
+    /* 60 */
+    height: 2rem;
+    /* 6 */
+}
+
+.logop img{
+    width: 13rem;
+    height: 5rem;
+    margin-top: -2rem;
+}
+/* logo css end  */
+
+/* navbar css start  */
+ .header .navbar{
+    /* padding-left: -25rem; */
+    margin-right: 30rem;
+    /* width: 20rem; */
+}
+ .header .navbar a{
+    font-size: 2rem;
+    margin:  0 2rem;
+    /* margin-left: -3rem; */
+    text-decoration: none;
+    color: black;
+    /* margin-left: 10rem; */
+    /* padding-left: 2rem; */
+}
+.navbar #homeanchor{
+    margin-left: 10rem;
+    padding-right: 2rem;
+}
+.navbar a:hover{
+    font-weight: 600;
+    
+}
+/* navbar css end  */
+
+
+
+#new-password.active{
+    border: 1px solid red;
+    box-shadow: 0 0 9px red;
+} */
+/* login btn remove  after login/signup  */
+#login-btn.remove{
+    margin-top:-100rem;
+    opacity:1;
+}
+
+/* user panel after login/signup  */
+.user-panel{
+    /* display: none; */
+   position: absolute;
+    right: 14rem;
+    top: .6rem;
+    opacity: 1;
+    /* z-index: 111; */
+    /* top:3.9rem; */
+    
+}
+#user-icon{
+    /* position: absolute; */
+    font-size: 3rem;
+    cursor: pointer;
+    margin-top: 1.2rem;
+    /* left: -2rem; */
+    /* z-index: 111; */
+    
+}
+
+ .usermenu{
+    /* display: none; */
+    right: 3rem;
+    position: absolute;
+    /* z-index: 111; */
+    top:-90rem;
+    /* top: 30px; */
+    /* right: -9rem; */
+    /* left: -9rem; */
+    /* background-color: #fff; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff ;
+    /* display: none; */
+    width: 12rem;
+}
+.usermenu a {
+    display: block;
+    border-bottom:.01px solid rgb(0, 0, 0);
+    padding: 10px;
+    /* width: 100%; */
+    text-decoration: none;
+    color: #000000;
+    z-index: 1000;
+    font-size: 1.5rem;
+}
+.usermenu a:hover {
+   background-color: black;
+   color: white;
+    /* rgb(65, 65, 137); */
+}
+
+.user-panel.active{
+    opacity: 1;
+    top: 3.6rem;
+}
+
+.usermenu.active{
+    top: 7rem;
+    opacity: 1;
+}
+
+    /* -------------------------------------------------------footer css------------------------------------------------------------- */
+/* css for footer  */
+.footer-main-container{
+    background-color: black;
+    border: 2px solid black;
+    height: 39rem;
+    margin-top: 40rem;
+}
+
+.footer-flex-container{
+    display: flex;
+    /* justify-content: space-around; */
+    height: 29rem;
+    margin-top: 3rem;
+    width: 95%;
+    margin-left: 3rem;
+    /* border: 2px solid white; */
+}
+
+.company-logo{
+    height: 20rem;
+    width: 25rem;
+    /* border: 2px solid white; */
+    margin-top: 1rem;
+    margin-left: 4rem;
+    
+
+}
+
+.company-logo #product{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: start;
+    text-decoration: underline;
+}
+
+.company-logo #product-names{
+    color: white;
+    font-size: 1.5rem;
+    /* text-align: center; */
+    margin-top: 3rem;
+    /* text-align: center; */
+}
+
+.about-company{
+    height: 20rem;
+    width: 35rem;
+    /* border: 2px solid white; */
+    margin-top: 1rem;
+    margin-left: 20rem;
+}
+
+.about-company #about-company-descption{
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 500;
+    text-decoration: underline;
+
+}
+
+.about-company #main-para{
+    color: white;
+    font-size: 1.3rem;
+    /* text-align: center; */
+    margin-top: 3rem;
+
+}
+
+.address-company{
+    height: 20rem;
+    width: 45rem;
+    /* border: 2px solid white; */
+    margin-top: 6rem;
+    margin-left: 15rem;
+    display: flex;
+    flex-direction: column;
+}
+.address-company #contact-us{
+    font-size: 2rem;
+    margin-top: -4rem;
+    text-decoration: underline;
+}
+.address-company p{
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+.address-company i{
+    font-size: 2rem;
+}
+
+.address-company .location{
+    width: 60%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.address-company .phonenum{
+    width: 34.5%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.address-company .email{
+    width: 62%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media-box{
+    height: 4rem;
+    width: 30rem;
+    /* border: 2px solid rgb(255, 255, 255); */
+    margin-top: 1rem;
+    margin-left: 55rem;
+    margin-bottom: -3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media-box a i{
+    font-size: 3rem;
+}
+/* css for footer end  */
