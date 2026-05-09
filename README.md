@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-**CarFusion** is a web-based platform designed to simplify vehicle sales and rentals for individuals and businesses. It provides a clean and intuitive interface where users can browse, search, and book vehicles بسهولة.
+**CarFusion** is a web-based platform designed to simplify vehicle sales and rentals for individuals and businesses. It provides a clean and intuitive interface where users can browse, search, and book vehicles.
 
 The platform focuses on automation, security, and ease of use, ensuring a smooth experience for both customers and administrators.
 
